@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-10-30T15:56:45.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="xhizm2XBUKiq0gVcxN1x" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-30T16:02:01.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.26" etag="TEK6jV0gd-Su-whyLQ_Z" version="20.5.1" type="github">
   <diagram id="2f404044-711c-603c-8f00-f6bb4c023d3c" name="Page-1">
-    <mxGraphModel dx="1320" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1663" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="21" value="c" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=none;fontColor=#050401;align=left;startSize=0;collapsible=0;strokeWidth=3;labelBorderColor=default;" parent="1" vertex="1">
-          <mxGeometry x="50" y="48" width="1035" height="730" as="geometry" />
+        <mxCell id="21" value="" style="swimlane;shadow=0;strokeColor=#4277BB;fillColor=none;fontColor=#050401;align=left;startSize=0;collapsible=0;strokeWidth=3;labelBorderColor=default;" parent="1" vertex="1">
+          <mxGeometry x="60" y="40" width="1035" height="730" as="geometry" />
         </mxCell>
-        <mxCell id="uKJPWOqe56dpy3O789kY-207" value="Docker environment" style="whiteSpace=wrap;html=1;aspect=fixed;labelBorderColor=none;fillStyle=auto;fontFamily=Verdana;fontSize=16;fontColor=#2D31BA;fillColor=none;gradientColor=none;glass=1;rounded=1;strokeWidth=3;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="21">
+        <mxCell id="uKJPWOqe56dpy3O789kY-211" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#EDC11C;strokeWidth=2;fontFamily=Verdana;fontSize=16;fontColor=#2D31BA;fillColor=#FFEB33;" edge="1" parent="21" source="11" target="uKJPWOqe56dpy3O789kY-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uKJPWOqe56dpy3O789kY-207" value="Docker environment" style="whiteSpace=wrap;html=1;aspect=fixed;labelBorderColor=none;fillStyle=auto;fontFamily=Verdana;fontSize=16;fontColor=#000099;fillColor=none;gradientColor=none;glass=1;rounded=1;strokeWidth=3;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="21">
           <mxGeometry x="280" y="120" width="468" height="468" as="geometry" />
         </mxCell>
         <mxCell id="22" value="PUBLIC NETWORK" style="text;html=1;align=left;verticalAlign=middle;fontColor=#4277BB;shadow=0;dashed=0;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=14;spacingLeft=5;" parent="21" vertex="1">
@@ -141,7 +144,7 @@
         <mxCell id="uKJPWOqe56dpy3O789kY-128" value="" style="group" vertex="1" connectable="0" parent="21">
           <mxGeometry x="812.5" y="215" width="70" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="web dashboard" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/enterprise_applications.svg;strokeColor=#FF0000;fillColor=#FFFF66;gradientColor=none;fontColor=#4277BB;labelBackgroundColor=#ffffff;spacingTop=3;" parent="uKJPWOqe56dpy3O789kY-128" vertex="1">
+        <mxCell id="15" value="Web View" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/applications/enterprise_applications.svg;strokeColor=#FF0000;fillColor=#FFFF66;gradientColor=none;fontColor=#4277BB;labelBackgroundColor=#ffffff;spacingTop=3;" parent="uKJPWOqe56dpy3O789kY-128" vertex="1">
           <mxGeometry width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="uKJPWOqe56dpy3O789kY-105" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px;&quot;&gt;IBM cognos analytics&lt;/font&gt;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/analytics/analytics.svg;" vertex="1" parent="uKJPWOqe56dpy3O789kY-128">
@@ -156,8 +159,8 @@
         <mxCell id="2" value="User&amp;nbsp;" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;image;image=img/lib/ibm/users/user.svg;strokeColor=#FF0000;fillColor=#FFFF66;gradientColor=none;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;" parent="21" vertex="1">
           <mxGeometry x="147.5" y="60" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="uKJPWOqe56dpy3O789kY-210" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/data/data_services.svg;rounded=1;glass=1;labelBorderColor=none;fillStyle=auto;strokeWidth=3;fontFamily=Verdana;fillColor=#000099;gradientColor=none;" vertex="1" parent="21">
-          <mxGeometry x="523" y="482" width="60" height="60" as="geometry" />
+        <mxCell id="uKJPWOqe56dpy3O789kY-210" value="FILE STORAGE" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=10;spacingTop=3;image;image=img/lib/ibm/data/data_services.svg;rounded=1;glass=1;labelBorderColor=none;fillStyle=auto;strokeWidth=3;fontFamily=Verdana;fillColor=#000099;gradientColor=none;" vertex="1" parent="21">
+          <mxGeometry x="526.82" y="502" width="48" height="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
