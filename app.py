@@ -26,7 +26,8 @@ app = Flask(__name__)
 # routes
 @app.route("/", methods=['GET', 'POST'])
 def main():
-	return render_template("index.html")
+    return render_template("index.html")
+
 
 @app.route("/submit", methods=['GET', 'POST'])
 def get_output():
@@ -71,6 +72,6 @@ def animal_identifier(region_dir):
         # df.loc[i,'Species']=pred_animal
     return df
 
-if __name__ =='__main__':
-	#app.debug = True
-	app.run(debug = True)
+if __name__ == '__main__':
+    #app.debug = True
+    app.run(debug=True)
