@@ -99,8 +99,10 @@ Data, such as satellite images, acoustic sensors, and camera traps, need to be a
 
 
 <!-- GETTING STARTED -->
-## TODO: COMPLETE GFTTING STARTED
+## TODO: COMPLETE GETTING STARTED
 ## Getting Started
+
+> ⚠️ SAMPLE ONLY; WORK IN PROGRESS
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -158,14 +160,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 #TODO
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
