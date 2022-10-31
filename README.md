@@ -89,12 +89,11 @@ Data, such as satellite images, acoustic sensors, and camera traps, need to be a
 * Tensorflow
 * Flask API
 
-### System Diagram
+### Proposed System Diagram
 </br>
 <a href="#">
     <img src="./images/IBM hackathon Diagram.png" alt="Logo" height="450">
 </a>
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,15 +147,15 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## TODO: Usage
-
+## Usage
+#TODO
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## TODO: Acknowledgments
-
+## Acknowledgments
+#TODO
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Choose an Open Source License](https://choosealicense.com)
