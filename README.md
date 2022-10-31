@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="./images/biodiversity_dashboard_logo.png" alt="Logo" width="150" height="150">
+    <img src="./images/biodiversity_dashboard_logo.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">Biodiversity Dashboard for Reforestation Projects</h3>
@@ -83,13 +83,18 @@ Data, such as satellite images, acoustic sensors, and camera traps, need to be a
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 * IBM Watson Studio
 * Juypter Notebook
 * Python
 * Tensorflow
 * Flask API
+
+### System Diagram
+</br>
+<a href="#">
+    <img src="./images/IBM hackathon Diagram.png" alt="Logo" height="450">
+</a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -137,7 +142,7 @@ _Below is an example of how you can instruct your audience on installing and set
 * Kshitij Tiwari [Builder]
 * Ajmal N [Builder]
 * Suraj Patil [Builder]
-* Badmaarag Jargalsaikhan
+* Badmaarag Jargalsaikhan [Communicator]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
