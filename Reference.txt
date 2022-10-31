@@ -1,0 +1,18 @@
+Using a Computer Vision Classifier to Sort Images
+https://pyimagesearch.com/2021/04/17/your-first-image-classifier-using-k-nn-to-classify-images/
+https://alwaysai.co/blog/using-a-computer-vision-classifier-to-sort-images
+
+
+https://www.kaggle.com/code/utkarshsaxenadn/animal-10-classification-resnet152v2-acc-93/notebook
+https://www.kaggle.com/code/kasaligabriel/animal-classification-with-tensorflow
+https://www.kaggle.com/code/williamcao01/cnn-xception-vs-vgg16-vs-mobilenet
+
+
+ibm tools used
+https://community.ibm.com/community/user/datascience/blogs/jerome-kafrouni/2022/01/26/trust-your-ml-models-with-streamlit-and-ibm-cloud
+IBM Watson Studio
+IBM Cloud Pak for DataIBM
+IBM Db2
+IBM storage solution
+App services 
+authentication services
