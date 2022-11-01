@@ -11,17 +11,8 @@ import joblib
 app = Flask(__name__)
 
 
-# need to import tensorflow
-# dic = {0: 'lions', 1: 'elephant'}
-# model = load_model('saved_model.pb')
-# model.make_predict_function()
-# def predict_label(img_path):
-# 	i = image.load_img(img_path, target_size=(100, 100))
-# 	i = image.img_to_array(i)/255.0
-# 	i = i.reshape(1, 100, 100, 3)
-# 	p = model.predict_classes(i)
-# 	return dic[p[0]]
-
+model= keras.models.load_model(r"./model")
+label_encoder = joblib.load(r"./label_encoder.joblib")
 
 # routes
 @app.route("/", methods=['GET', 'POST'])
@@ -64,12 +55,12 @@ def animal_identifier(region_dir):
         resized_img = resized_img / 255.0
         images.append(resized_img)
         images = np.array(images,dtype = 'float32')
-        # preds = model.predict(images)
+        preds = model.predict(images)
         preds = np.argmax(preds,axis = 1)
-        # pred_animal=label_encoder.inverse_transform([preds[0]])[0]
+        pred_animal=label_encoder.inverse_transform([preds[0]])[0]
         df.loc[i,'Image_Name']=os.listdir(region_dir)[i]
         df.loc[i,'Region_Name']=region_dir.split('\\')[-1]
-        # df.loc[i,'Species']=pred_animal
+        df.loc[i,'Species']=pred_animal
     return df
 
 if __name__ == '__main__':
