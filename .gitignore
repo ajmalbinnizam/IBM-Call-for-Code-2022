@@ -1,7 +1,7 @@
 .idea
-model/Training_Data/
+.ipynb_checkpoints
 .env
-.IBMvenv
 .vscode
-images/animals_for_upload/*
+__pycache__
 IBMvenv
+images/animals_for_upload/*
