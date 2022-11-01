@@ -1,3 +1,6 @@
 .idea
 model/Training_Data/
 .env
+.IBMvenv
+.vscode/*
+images/animals_for_upload/*
