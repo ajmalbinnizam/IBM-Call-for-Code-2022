@@ -67,9 +67,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-#TODO: Add screenshot
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Using machine learning to generate data that is aggregated and shared via a dashboard to measure the impacts of reforestation projects on biodiversity.
 
 ### The Issue
@@ -98,25 +95,18 @@ Data, such as satellite images, acoustic sensors, and camera traps, need to be a
 
 
 <!-- GETTING STARTED -->
-## TODO: COMPLETE GETTING STARTED
 ## Getting Started
 
-> ⚠️ SAMPLE ONLY; WORK IN PROGRESS
+Please run the following two scripts in order:
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+`pip install -r requirements.txt`
+`python3 app.py`
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* TODO:...
+This program will only run on a Windows machine.
 
-### Installation
-#TODO:
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. ...
-2. ...
+You must have python3 installed on your system.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,15 +119,6 @@ _Below is an example of how you can instruct your audience on installing and set
 * Ajmal N [Builder]
 * Suraj Patil [Builder]
 * Badmaarag Jargalsaikhan [Communicator]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-#TODO
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
