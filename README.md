@@ -100,6 +100,7 @@ Data, such as satellite images, acoustic sensors, and camera traps, need to be a
 Please run the following two scripts in order:
 
 `pip install -r requirements.txt`
+
 `python3 app.py`
 
 ### Prerequisites
